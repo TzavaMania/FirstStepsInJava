@@ -2,7 +2,7 @@
 Αυτό το πρόγραμμα πέρνει σαν είσοδο ένα θετικό ακέραιο και τυπώνει τον [Αρμονικό Αριθμό](https://en.wikipedia.org/wiki/Harmonic_number).
 Αρμονικός Αριθμός ορίζεται ως
 
-<math>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
     <munderover>
       <mo>&Sum;</mo>
