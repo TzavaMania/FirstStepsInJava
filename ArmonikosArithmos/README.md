@@ -2,7 +2,26 @@
 Αυτό το πρόγραμμα πέρνει σαν είσοδο ένα θετικό ακέραιο και τυπώνει τον [Αρμονικό Αριθμό](https://en.wikipedia.org/wiki/Harmonic_number).
 Αρμονικός Αριθμός ορίζεται ως
 
-$$\displaystyle\sum_{k=1}^n \frac{1}{k}$$
+<math>
+  <mrow>
+    <munderover>
+      <mo>&Sum;</mo>
+      <mrow>
+	<mi>k</mi>
+	<mo>=</mo>
+	<mn>1</mn>
+      </mrow>
+      <mrow>
+	<mn>n</mn>
+      </mrow>
+    </munderover>
+    <mrow>
+      <mfrac>
+	<mi>1</mi>
+	<mi>k</mi>
+      </mfrac>
+    </mrow>
+</math>
 
 ## Παράδειγμα εκτέλεσης
 
