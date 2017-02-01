@@ -12,13 +12,11 @@ Author: Savvas
 - Όρεξη
 
 ## Εγκατάσταση Προαπαιτούμενων
-Για την άσκηση αυτή χρειάζεται να εγκαταστήσουμε τα πιο κάτω μέσω της γραμμής εντολών
-
+- Για την άσκηση αυτή χρειάζεται να εγκαταστήσουμε τα πιο κάτω μέσω της γραμμής εντολών
 	```bash
 	sudo yum install git emacs java-1.8.0-openjdk-devel
 	```
-
-Με τη πιο πάνω εντολή εγκαθιστούμε με το διαχειριστή πακέτων [yum](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)
+- Με τη πιο πάνω εντολή εγκαθιστούμε με το διαχειριστή πακέτων [yum](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)
 - Το εργαλείο διαχείρισης κώδικα [git](https://git-scm.com/)
 - Επεξεργαστή Κειμένου [GNU Emacs](https://www.gnu.org/software/emacs/) και
 - [OpenJDK](http://openjdk.java.net/) (Open Java Development Kit)
@@ -44,10 +42,10 @@ Author: Savvas
    Δημιούργησε ένα αποθετήριο με το όνομα GeiaSouKosme-TeamOne στο TzavaMania
 
 	```bash
-	git clone git@github.com:TzavaMania/GeiaSouKosme-TeamOne.git
-	cd GeiaSouKosme-TeamOne
+	git clone git@github.com:TzavaMania/FirstStepsInJava-TeamOne.git
+	cd FirstStepsInJava-TeamOne
 	git remote -v
-	git remote add upstream git@github.com:TzavaMania/GeiaSouKosme.git
+	git remote add upstream git@github.com:TzavaMania/FirstStepsInJava.git
 	git remote -v
 	git fetch upstream
 	git checkout master
@@ -55,6 +53,7 @@ Author: Savvas
 
 6. Επεξεργασία README.md και αποθήκευση κάτω από του Καινούργιο Αποθετήριο
 	```bash
+	cd exercise_1
 	emacs README.md
 	```
 	Βάλε στο author το όνομα σου, αποθήκευση με <kbd>C-x C-s</kbd> και "minimize" <kbd>C-z</kbd>
