@@ -12,11 +12,11 @@ Author: Savvas
 - Όρεξη
 
 ## Εγκατάσταση Προαπαιτούμενων
-   Για την άσκηση αυτή χρειάζεται να εγκαταστήσουμε τα πιο κάτω μέσω της γραμμής εντολών
-   ```sh
-   sudo yum install git emacs java-1.8.0-openjdk-devel
-   ```
-Με τη πιο πάνω εντολή εγκαθιστούμε με το διαχειριστή πακεων [yum](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)
+	Για την άσκηση αυτή χρειάζεται να εγκαταστήσουμε τα πιο κάτω μέσω της γραμμής εντολών
+	```sh
+	sudo yum install git emacs java-1.8.0-openjdk-devel
+	```
+	Με τη πιο πάνω εντολή εγκαθιστούμε με το διαχειριστή πακεων [yum](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)
 - Το εργαλείο διαχείρησης κώδικα [git](https://git-scm.com/)
 - Επεξεργαστή Κειμένου [GNU Emacs](https://www.gnu.org/software/emacs/) και
 - [OpenJDK](http://openjdk.java.net/) (Open Java Development Kit)
@@ -25,10 +25,10 @@ Author: Savvas
 
 1. Δημιουργία Λογαριασμού στο [github](https://github.com/)
 2. Ρύθμιση git τοπικά
-   ```sh
-   git config --global user.name "YOUR NAME"
-   git config --global user.email "YOUR EMAIL ADDRESS"
-   ```
+	```sh
+	git config --global user.name "YOUR NAME"
+	git config --global user.email "YOUR EMAIL ADDRESS"
+	```
 3. Δημιουργία Κλειδιού [ssh](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/). Περισσότερα για την [Ασσύμετρη Κρυπτογραφία](https://en.wikipedia.org/wiki/Public-key_cryptography)
 4. Αντιγραφή κλειδιού στο github ακολούθησε τις οδηγίες [εδώ](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/). Αντί του πρώτου βήματος μπορείς να το αντιγράψεις από εδώ.
    ```bash
@@ -56,11 +56,11 @@ Author: Savvas
 	git push origin
 	```
 ## Δημιουργία Προγράμματος και Μεταγλώτιση προγράμματος
-   ```bash
+	```bash
 	touch HelloWorld.java
 	emacs HelloWorld.java
 	```
-	Ακολούθως γράψε το πιο κάτω κώδικα
+	- Ακολούθως γράψε το πιο κάτω κώδικα
 	```java
 	public class HelloWorld {
 
