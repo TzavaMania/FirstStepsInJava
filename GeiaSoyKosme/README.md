@@ -13,9 +13,11 @@ Author: Savvas
 
 ## Εγκατάσταση Προαπαιτούμενων
 - Για την άσκηση αυτή χρειάζεται να εγκαταστήσουμε τα πιο κάτω μέσω της γραμμής εντολών
-	```bash
+
+	```sh
 	sudo yum install git emacs java-1.8.0-openjdk-devel
 	```
+
 - Με τη πιο πάνω εντολή εγκαθιστούμε με το διαχειριστή πακέτων [yum](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)
 - Το εργαλείο διαχείρισης κώδικα [git](https://git-scm.com/)
 - Επεξεργαστή Κειμένου [GNU Emacs](https://www.gnu.org/software/emacs/) και
@@ -39,7 +41,7 @@ Author: Savvas
 	```
 
 5. Δημιουργία Αποθετηρίου, Κλώνου και Πιρούνιασμα Κώδικα [εδώ](https://help.github.com/articles/fork-a-repo/)
-   Δημιούργησε ένα αποθετήριο με το όνομα GeiaSouKosme-TeamOne στο TzavaMania
+   Δημιούργησε ένα αποθετήριο με το όνομα FirstStepsInJava-TeamOne στο TzavaMania
 
 	```bash
 	git clone git@github.com:TzavaMania/FirstStepsInJava-TeamOne.git
