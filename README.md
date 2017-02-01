@@ -38,7 +38,7 @@ cat ~/.ssh/id_rsa.pub
 git clone https://github.com/TzavaMania/GeiaSouKosme-TeamOne
 cd GeiaSouKosme-TeamOne
 git remote -v
-git remote add upstream https://github.com/TzavaMania/GeiaSouKosme
+git remote add upstream git@github.com:TzavaMania/GeiaSouKosme.git
 git remote -v
 ```
 	
