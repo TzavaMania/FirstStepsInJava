@@ -13,19 +13,19 @@ Author: Savvas
 
 ## Εγκατάσταση Προαπαιτούμενων
    Για την άσκηση αυτή χρειάζεται να εγκαταστήσουμε τα πιο κάτω μέσω της γραμμής εντολών
-```sh
-sudo yum install git emacs java-1.8.0-openjdk-devel
-```
+   ```sh
+   sudo yum install git emacs java-1.8.0-openjdk-devel
+   ```
 Με τη πιο πάνω εντολή εγκαθιστούμε με το διαχειριστή πακεων [yum](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)
 - Το εργαλείο διαχείρησης κώδικα [git](https://git-scm.com/)
 - Επεξεργαστή Κειμένου [GNU Emacs](https://www.gnu.org/software/emacs/) και
 - [OpenJDK](http://openjdk.java.net/) (Open Java Development Kit)
-	 
+
 ## Ρύθμιση git και "πιρούνιασμα" αποθετηρίου
-	
+
 1. Δημιουργία Λογαριασμού στο [github](https://github.com/)
 2. Ρύθμιση git τοπικά
-   ```bash
+   ```sh
    git config --global user.name "YOUR NAME"
    git config --global user.email "YOUR EMAIL ADDRESS"
    ```
@@ -55,8 +55,8 @@ sudo yum install git emacs java-1.8.0-openjdk-devel
 	git commit -m "my first commit"
 	git push origin
 	```
-7. Δημιουργία Προγράμματος
-   	```bash
+## Δημιουργία Προγράμματος και Μεταγλώτιση προγράμματος
+   ```bash
 	touch HelloWorld.java
 	emacs HelloWorld.java
 	```
@@ -64,15 +64,16 @@ sudo yum install git emacs java-1.8.0-openjdk-devel
 	```java
 	public class HelloWorld {
 
-    public static void main(String[] args) {
-        // Prints "Hello, World" to the terminal window.
-        System.out.println("Hello, World");
-    }
+		public static void main(String[] args) {
+			// Τυπώνει "Hello, World" στο τερματικό.
+			System.out.println("Hello, World");
+		}
+	}
 	```
-	Αποθήκευσε και ελαχιστοποίησε.
-8. Compile Ποργράμματος
-   	```bash
+	- Αποθήκευσε και ελαχιστοποίησε.
+	- Compile Ποργράμματος
+	```sh
 	javac HelloWorld.java
 	java HelloWorld
 	```
-9. Σβήσε το αρχείο που έχει δημιουργηθεί από τον compiler και ανέβασε τις αλλαγές.
+	- Σβήσε το αρχείο που έχει δημιουργηθεί από τον compiler και ανέβασε με τη χρήση του git
